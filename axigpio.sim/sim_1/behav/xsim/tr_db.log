@@ -109,3 +109,4 @@
   CREATE_STREAM @25000 {NAME:writeSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:665}
   CREATE_STREAM @25000 {NAME:writeSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:665}
   CREATE_STREAM @25000 {NAME:writeSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:665}
+  CREATE_STREAM @25000 {NAME:writeSeq T:Transactions SCOPE:uvm_test_top.env.agent.sequencer STREAM:665}

@@ -1,0 +1,24 @@
+# Exclude fișierele generate automat
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.gen/
+*.log
+*.jou
+*.str
+*.wdb
+*.dcp
+*.zip
+
+# Exclude fișiere temporare
+*.tmp
+*.bak
+*.lock
+
+# Include doar fișierele sursă
+!*.v
+!*.sv
+!*.xdc
+!*.xpr
+!*.tcl

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1734503121" LaunchIncrCheckpoint="$PPRDIR/../axigpio/axigpio.srcs/utils_1/imports/synth_1/axigpio_wrapper.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1734503121" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/axigpio_wrapper.dcp">
   <File Type="PA-TCL" Name="axigpio_wrapper.tcl"/>
   <File Type="REPORTS-TCL" Name="axigpio_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="axigpio_wrapper.vds"/>

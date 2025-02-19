@@ -6,11 +6,14 @@ Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 WARNING: [VRFC 10-9601] only simple identifiers of integral type are allowed as argument of class randomize call [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/registerTest.sv:59]
+WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio/axigpio.srcs/sim_1/new/axigpio_driver.sv:18]
+WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio/axigpio.srcs/sim_1/new/axigpio_monitor.sv:27]
+WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio/axigpio.srcs/sim_1/new/scoreboard.sv:32]
+WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio/axigpio.srcs/sim_1/new/registerTest.sv:59]
+WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio/axigpio.srcs/sim_1/new/registerTest.sv:86]
 WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/axigpio_driver.sv:18]
 WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/axigpio_monitor.sv:27]
 WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv:32]
-WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/registerTest.sv:59]
-WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/registerTest.sv:86]
 WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv:33]
 WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/registerTest.sv:56]
 WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void casting [C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/registerTest.sv:78]
@@ -18,8 +21,8 @@ WARNING: [VRFC 10-3597] non-void function 'get' called as a task without void ca
 Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4468] File : /proj/xbuilds/SWIP/2024.1_0404_1523/installs/lin64/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv, Line : 25994, RANDC variable size more than 8 bits. This will be treated as a RAND variable instead.
-WARNING: [XSIM 43-4100] "C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio/axigpio.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio/axigpio.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling package std.standard
