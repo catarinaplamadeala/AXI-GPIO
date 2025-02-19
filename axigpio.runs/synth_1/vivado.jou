@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Dec 18 08:25:24 2024
+# Process ID: 45320
+# Current directory: C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio/axigpio.runs/synth_1
+# Command line: vivado.exe -log axigpio_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axigpio_wrapper.tcl
+# Log file: C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio/axigpio.runs/synth_1/axigpio_wrapper.vds
+# Journal file: C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio/axigpio.runs/synth_1\vivado.jou
+# Running On        :DESKTOP-MJAR3T8
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency     :2688 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16831 MB
+# Swap memory       :1543 MB
+# Total Virtual     :18375 MB
+# Available Virtual :6829 MB
+#-----------------------------------------------------------
+source axigpio_wrapper.tcl -notrace

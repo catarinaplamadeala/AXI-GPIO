@@ -1,0 +1,120 @@
+Time resolution is 1 ps
+UVM_INFO D:/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axigpio_driver' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axigpio_monitor' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axigpio_agent' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'scoreboard' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'environment' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'registerTest' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axigpio_transaction' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axigpio_baseSequence' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'axigpio_writeSequence' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_INFO @ 0: reporter [RNTST] Running test registerTest...
+UVM_INFO D:/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO @ 25000: uvm_test_top.env.agent.driver [axigpio_driver] Received new item: 
+	 * readData=0
+	 * writeData=8484d609
+	 * addr=4
+	 * writeEnable=1
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/axigpio_monitor.sv(45) @ 85000: uvm_test_top.env.agent.monitor [axigpio_monitor] Detected a new write response: 
+	 * readData=0
+	 * writeData=8484d609
+	 * addr=4
+	 * writeEnable=1
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/axigpio_driver.sv(48) @ 85000: uvm_test_top.env.agent.driver [axigpio_driver] Write access successfull
+UVM_INFO @ 95000: uvm_test_top.env.agent.driver [axigpio_driver] Received new item: 
+	 * readData=0
+	 * writeData=12153524
+	 * addr=0
+	 * writeEnable=1
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/axigpio_monitor.sv(45) @ 155000: uvm_test_top.env.agent.monitor [axigpio_monitor] Detected a new write response: 
+	 * readData=0
+	 * writeData=12153524
+	 * addr=0
+	 * writeEnable=1
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(49) @ 155000: uvm_test_top.env.sb [GPIO_MONITOR] Correctly propagated data 12153524 to axi_gpio_o
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/axigpio_driver.sv(48) @ 155000: uvm_test_top.env.agent.driver [axigpio_driver] Write access successfull
+UVM_INFO @ 165000: uvm_test_top.env.agent.driver [axigpio_driver] Received new item: 
+	 * readData=0
+	 * writeData=0
+	 * addr=0
+	 * writeEnable=0
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/axigpio_monitor.sv(62) @ 225000: uvm_test_top.env.agent.monitor [axigpio_monitor] Detected a new read response: 
+	 * readData=92917725
+	 * writeData=0
+	 * addr=0
+	 * writeEnable=0
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 0 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 1 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 2 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 3 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 4 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 5 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 6 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 7 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 8 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 9 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 10 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 11 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 12 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 13 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 14 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 15 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 16 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 17 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 18 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 19 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 20 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 21 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 22 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 23 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 24 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 25 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 26 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 27 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 28 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 29 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(68) @ 225000: uvm_test_top.env.sb [GPIO_OUTPUT] Output pin 30 matched correctly with value 0.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/scoreboard.sv(61) @ 225000: uvm_test_top.env.sb [GPIO_INPUT] Input pin 31 matched correctly with value 1.
+UVM_INFO C:/Users/Catarina/OneDrive/Catarina/Politehnica/An 3 sem 1/Verificare in proiectarea circuitelor/axigpio - Copy/axigpio.srcs/sim_1/new/axigpio_driver.sv(76) @ 225000: uvm_test_top.env.agent.driver [axigpio_driver] Successfully read data 92917725
+UVM_INFO D:/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 235000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO D:/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 235000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   46
+UVM_WARNING :    9
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[GPIO_INPUT]    11
+[GPIO_MONITOR]     1
+[GPIO_OUTPUT]    21
+[RNTST]     1
+[TEST_DONE]     1
+[TPRGED]     9
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+[axigpio_driver]     6
+[axigpio_monitor]     3
+
+$finish called at time : 235 ns : File "D:/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699

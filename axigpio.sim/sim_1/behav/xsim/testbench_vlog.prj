@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../axigpio.srcs/sim_1/new/axigpio_driver.sv" \
+"../../../../axigpio.srcs/sim_1/new/axigpio_monitor.sv" \
+"../../../../axigpio.srcs/sim_1/new/axigpio_agent.sv" \
+"../../../../axigpio.srcs/sim_1/new/axigpio_baseSequence.sv" \
+"../../../../axigpio.srcs/sources_1/new/axigpio_intf.sv" \
+"../../../../axigpio.srcs/sources_1/new/axigpio_wrapper.sv" \
+"../../../../axigpio.srcs/sim_1/new/axigpio_writeSequence.sv" \
+"../../../../axigpio.srcs/sim_1/new/scoreboard.sv" \
+"../../../../axigpio.srcs/sim_1/new/environment.sv" \
+"../../../../axigpio.srcs/sim_1/new/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
